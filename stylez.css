@@ -1,0 +1,19 @@
+.grid-container {
+    background-image: url('smallMap.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 825px;
+    height: 340px;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px ;
+    grid-template-rows: 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px 37.5px ;
+}
+
+.grid-item {
+    height: 38px;
+    width: 38px;
+}
