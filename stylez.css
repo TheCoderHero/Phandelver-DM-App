@@ -26,4 +26,5 @@
     margin-right: auto;
     height: 56.25px;
     width: 56.25px;
+    -webkit-user-drag: element;
 }
