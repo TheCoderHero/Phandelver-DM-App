@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' type='text/css' href='stylez.css'>
-    <title>Grid Test</title>
+    <title>Goblin Ambush</title>
 
     <script>
         function allowDrop( event ) {
@@ -102,7 +102,9 @@
         <!-- Row 4 -->
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img class='center' src='W_token.png' draggable='true' ondragstart='drag(event)' id='wizard'>
+        </div>
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -128,8 +130,12 @@
         <!-- Row 5 -->
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img class='center' src='F_token.png' draggable='true' ondragstart='drag(event)' id='fighter'>
+        </div>
+        <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img class='center' src='C_token.png' draggable='true' ondragstart='drag(event)' id='cleric'>
+        </div>
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
         <div class="grid-item" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
