@@ -1,10 +1,14 @@
 .grid-container {
-    background-image: url('smallMap.jpg');
+    background-image: url('/images/smallMap.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*width: 825px;
-    height: 340px;*/
+    /*
+    Initial Size of image
+    width: 825px;
+    height: 340px;
+    Sizes are based on ( size * 1.5 )
+    */
     width: 1237.5px;
     height: 510px;
 }
