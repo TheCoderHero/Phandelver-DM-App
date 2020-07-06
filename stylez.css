@@ -1,5 +1,5 @@
 .grid-container {
-    background-image: url('smallMap.jpg');
+    background-image: url('/images/smallMap.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
